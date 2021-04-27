@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>DOCUMENT</title>
+        <script>
+            function papar(){
+                let firstname= document.getElementById('firstname').value;
+                let secname=document.getElementById('secname').value;
+                document.getElementById('hasil').innerHTML = 'Encik' + firstname + secname;
+            }
+
+            function picit(){
+                alert("HELLO");
+            } 
+            </script>
+        <body>
+            <h1>DDT4E</h1>
+            <h1>NIROSHEENI MUNIYANDY</h1>
+            <h1 onclick="picit()">picit ler</h1>
+            <input type="text"id="firstname">
+            <input type="text" id="secname">
+            <button type="button" onclick="papar();">PAPAR</button>
+            <span id="hasil"></span>
+        </body>
+    </head>
+</html>
